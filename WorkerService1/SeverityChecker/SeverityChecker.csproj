@@ -9,6 +9,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Cronos" Version="0.13.0" />
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.2"/>
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="11.0.0-preview.5.26302.115" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SeverityChecker.Core\SeverityChecker.Core.csproj" />
+      <ProjectReference Include="..\SeverityChecker.Infrastructure\SeverityChecker.Infrastructure.csproj" />
     </ItemGroup>
 </Project>

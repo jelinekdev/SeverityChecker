@@ -4,14 +4,14 @@
     "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker\\SeverityChecker.csproj": {}
   },
   "projects": {
-    "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker\\SeverityChecker.csproj": {
+    "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Core\\SeverityChecker.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker\\SeverityChecker.csproj",
-        "projectName": "SeverityChecker",
-        "projectPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker\\SeverityChecker.csproj",
+        "projectUniqueName": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Core\\SeverityChecker.Core.csproj",
+        "projectName": "SeverityChecker.Core",
+        "projectPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Core\\SeverityChecker.Core.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker\\obj\\",
+        "outputPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,10 +43,173 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\micha\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Infrastructure\\SeverityChecker.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Infrastructure\\SeverityChecker.Infrastructure.csproj",
+        "projectName": "SeverityChecker.Infrastructure",
+        "projectPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Infrastructure\\SeverityChecker.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+        "outputPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Core\\SeverityChecker.Core.csproj": {
+                "projectPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Core\\SeverityChecker.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[11.0.0-preview.5.26302.115, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[11.0.0-preview.5.26302.115, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[11.0.0-preview.5.26302.115, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.7.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[11.0.0-preview.5.26302.115, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\micha\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker\\SeverityChecker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker\\SeverityChecker.csproj",
+        "projectName": "SeverityChecker",
+        "projectPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker\\SeverityChecker.csproj",
+        "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+        "outputPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Core\\SeverityChecker.Core.csproj": {
+                "projectPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Core\\SeverityChecker.Core.csproj"
+              },
+              "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Infrastructure\\SeverityChecker.Infrastructure.csproj": {
+                "projectPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Infrastructure\\SeverityChecker.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Cronos": {
+              "target": "Package",
+              "version": "[0.13.0, )"
+            },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[11.0.0-preview.5.26302.115, )"
             }
           },
           "imports": [
