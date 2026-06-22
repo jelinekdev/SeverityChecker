@@ -5,10 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0169a897-aa91-4086-928d-4817f77a4bb2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SeverityChecker.Worker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SeverityChecker.Worker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Core/obj/Debug/net9.0/SeverityChecker.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Core/obj/Debug/net9.0/SeverityChecker.Core.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Core/obj/Debug/net9.0/SeverityChecker.Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Core/obj/Debug/net9.0/SeverityChecker.Core.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Core/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeverityChecker.Infrastructure/SeverityChecker.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Infrastructure/SeverityChecker.Infrastructure.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/Debug/net9.0/SeverityChecker.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/Debug/net9.0/SeverityChecker.Infrastructure.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/Debug/net9.0/SeverityChecker.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/Debug/net9.0/SeverityChecker.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/Debug/net9.0/SeverityChecker.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/Debug/net9.0/SeverityChecker.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/Debug/net9.0/SeverityChecker.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/Debug/net9.0/SeverityChecker.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/SeverityChecker.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/SeverityChecker.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/SeverityChecker.Infrastructure.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/SeverityChecker.Infrastructure.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Tests/SeverityChecker.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Tests/SeverityChecker.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Tests/obj/Debug/net9.0/SeverityChecker.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Tests/obj/Debug/net9.0/SeverityChecker.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Tests/obj/Debug/net9.0/SeverityChecker.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Tests/obj/Debug/net9.0/SeverityChecker.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Tests/obj/Debug/net9.0/SeverityChecker.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Tests/obj/Debug/net9.0/SeverityChecker.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Tests/obj/Debug/net9.0/SeverityChecker.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Tests/obj/Debug/net9.0/SeverityChecker.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Tests/obj/SeverityChecker.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Tests/obj/SeverityChecker.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Tests/obj/SeverityChecker.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Tests/obj/SeverityChecker.Tests.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker/obj/Debug/net9.0/SeverityChecker.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker/obj/Debug/net9.0/SeverityChecker.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker/obj/Debug/net9.0/SeverityChecker.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker/obj/Debug/net9.0/SeverityChecker.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverityChecker/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SeverityChecker/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +52,15 @@
     <setting file="file://$PROJECT_DIR$/SeverityChecker.Core/Models/PackageInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeverityChecker.Core/Models/ScanReport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeverityChecker.Core/Models/VulnerabilityResult.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeverityChecker.Core/Options/MailOption.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeverityChecker.Core/Options/MailOptions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeverityChecker.Core/Options/ScanOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeverityChecker.Infrastructure/Http/HttpClientExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeverityChecker.Infrastructure/Osv/Models/OsvRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeverityChecker.Infrastructure/Osv/Models/OsvResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeverityChecker.Infrastructure/Osv/OsvVulnerabilitySource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeverityChecker.Infrastructure/Parsers/NuGetPackageParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeverityChecker.Tests/Osv/OsvVulnerabilitySourceTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeverityChecker.Tests/Parsers/NuGetPackageParserTests.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -98,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1782114689165</updated>
-      <workItem from="1782114690467" duration="1108000" />
+      <workItem from="1782114690467" duration="1735000" />
     </task>
     <servers />
   </component>

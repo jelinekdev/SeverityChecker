@@ -106,6 +106,28 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[11.0.0-preview.5.26302.115, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[11.0.0-preview.5.26302.115, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[11.0.0-preview.5.26302.115, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.7.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[11.0.0-preview.5.26302.115, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
