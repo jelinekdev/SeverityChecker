@@ -20,4 +20,9 @@
         <Using Include="NUnit.Framework"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\SeverityChecker.Core\SeverityChecker.Core.csproj" />
+      <ProjectReference Include="..\SeverityChecker.Infrastructure\SeverityChecker.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>

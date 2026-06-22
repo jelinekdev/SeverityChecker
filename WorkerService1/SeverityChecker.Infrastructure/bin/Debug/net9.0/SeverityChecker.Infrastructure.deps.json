@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SeverityChecker.Infrastructure/1.0.0": {
+        "dependencies": {
+          "SeverityChecker.Core": "1.0.0"
+        },
+        "runtime": {
+          "SeverityChecker.Infrastructure.dll": {}
+        }
+      },
+      "SeverityChecker.Core/1.0.0": {
+        "runtime": {
+          "SeverityChecker.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SeverityChecker.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SeverityChecker.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

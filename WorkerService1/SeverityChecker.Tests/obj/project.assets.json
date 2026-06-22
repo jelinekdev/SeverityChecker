@@ -684,6 +684,29 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "SeverityChecker.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SeverityChecker.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SeverityChecker.Core.dll": {}
+        }
+      },
+      "SeverityChecker.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SeverityChecker.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SeverityChecker.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SeverityChecker.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -1602,6 +1625,16 @@
         "system.reflection.metadata.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SeverityChecker.Core/1.0.0": {
+      "type": "project",
+      "path": "../SeverityChecker.Core/SeverityChecker.Core.csproj",
+      "msbuildProject": "../SeverityChecker.Core/SeverityChecker.Core.csproj"
+    },
+    "SeverityChecker.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SeverityChecker.Infrastructure/SeverityChecker.Infrastructure.csproj",
+      "msbuildProject": "../SeverityChecker.Infrastructure/SeverityChecker.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1610,6 +1643,8 @@
       "NUnit >= 4.6.1",
       "NUnit.Analyzers >= 4.4.0",
       "NUnit3TestAdapter >= 6.2.0",
+      "SeverityChecker.Core >= 1.0.0",
+      "SeverityChecker.Infrastructure >= 1.0.0",
       "coverlet.collector >= 6.0.2"
     ]
   },
@@ -1637,7 +1672,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Core\\SeverityChecker.Core.csproj": {
+              "projectPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Core\\SeverityChecker.Core.csproj"
+            },
+            "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Infrastructure\\SeverityChecker.Infrastructure.csproj": {
+              "projectPath": "E:\\dev\\SeverityChecker\\WorkerService1\\SeverityChecker.Infrastructure\\SeverityChecker.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

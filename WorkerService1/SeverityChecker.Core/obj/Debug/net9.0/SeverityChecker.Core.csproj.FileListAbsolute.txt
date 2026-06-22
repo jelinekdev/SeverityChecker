@@ -1,0 +1,12 @@
+E:\dev\SeverityChecker\WorkerService1\SeverityChecker.Core\bin\Debug\net9.0\SeverityChecker.Core.deps.json
+E:\dev\SeverityChecker\WorkerService1\SeverityChecker.Core\bin\Debug\net9.0\SeverityChecker.Core.dll
+E:\dev\SeverityChecker\WorkerService1\SeverityChecker.Core\bin\Debug\net9.0\SeverityChecker.Core.pdb
+E:\dev\SeverityChecker\WorkerService1\SeverityChecker.Core\obj\Debug\net9.0\SeverityChecker.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\dev\SeverityChecker\WorkerService1\SeverityChecker.Core\obj\Debug\net9.0\SeverityChecker.Core.AssemblyInfoInputs.cache
+E:\dev\SeverityChecker\WorkerService1\SeverityChecker.Core\obj\Debug\net9.0\SeverityChecker.Core.AssemblyInfo.cs
+E:\dev\SeverityChecker\WorkerService1\SeverityChecker.Core\obj\Debug\net9.0\SeverityChecker.Core.csproj.CoreCompileInputs.cache
+E:\dev\SeverityChecker\WorkerService1\SeverityChecker.Core\obj\Debug\net9.0\SeverityChecker.Core.sourcelink.json
+E:\dev\SeverityChecker\WorkerService1\SeverityChecker.Core\obj\Debug\net9.0\SeverityChecker.Core.dll
+E:\dev\SeverityChecker\WorkerService1\SeverityChecker.Core\obj\Debug\net9.0\refint\SeverityChecker.Core.dll
+E:\dev\SeverityChecker\WorkerService1\SeverityChecker.Core\obj\Debug\net9.0\SeverityChecker.Core.pdb
+E:\dev\SeverityChecker\WorkerService1\SeverityChecker.Core\obj\Debug\net9.0\ref\SeverityChecker.Core.dll
