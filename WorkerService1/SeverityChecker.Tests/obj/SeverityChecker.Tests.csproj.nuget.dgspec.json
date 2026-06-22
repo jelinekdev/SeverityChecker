@@ -107,6 +107,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[11.0.0-preview.5.26302.115, )"

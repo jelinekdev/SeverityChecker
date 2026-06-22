@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeverityChecker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fad44fe2ff4763915662fda19d96a350805c736")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5289df55a165f9caeaf9f60a18a981df66e2305c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeverityChecker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeverityChecker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

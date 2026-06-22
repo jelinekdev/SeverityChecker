@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "SeverityChecker.Infrastructure/1.0.0": {
         "dependencies": {
+          "MailKit": "4.17.0",
           "Microsoft.Extensions.Http": "11.0.0-preview.5.26302.115",
           "Microsoft.Extensions.Http.Polly": "11.0.0-preview.5.26302.115",
           "Microsoft.Extensions.Options": "11.0.0-preview.5.26302.115",
@@ -17,6 +18,26 @@
         },
         "runtime": {
           "SeverityChecker.Infrastructure.dll": {}
+        }
+      },
+      "BouncyCastle.Cryptography/2.6.2": {
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.6.2.46322"
+          }
+        }
+      },
+      "MailKit/4.17.0": {
+        "dependencies": {
+          "MimeKit": "4.17.0",
+          "System.Formats.Asn1": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/MailKit.dll": {
+            "assemblyVersion": "4.17.0.0",
+            "fileVersion": "4.17.0.0"
+          }
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/11.0.0-preview.5.26302.115": {
@@ -138,6 +159,18 @@
           }
         }
       },
+      "MimeKit/4.17.0": {
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.6.2",
+          "System.Security.Cryptography.Pkcs": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/MimeKit.dll": {
+            "assemblyVersion": "4.17.0.0",
+            "fileVersion": "4.17.0.0"
+          }
+        }
+      },
       "Polly/8.7.0": {
         "dependencies": {
           "Polly.Core": "8.7.0"
@@ -182,6 +215,7 @@
           }
         }
       },
+      "System.Formats.Asn1/8.0.1": {},
       "System.IO.Pipelines/11.0.0-preview.5.26302.115": {
         "dependencies": {
           "System.Buffers": "4.6.1",
@@ -197,6 +231,22 @@
       },
       "System.Memory/4.6.3": {},
       "System.Runtime.CompilerServices.Unsafe/6.1.2": {},
+      "System.Security.Cryptography.Pkcs/8.0.1": {
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
       "System.Text.Encodings.Web/11.0.0-preview.5.26302.115": {
         "dependencies": {
           "System.Buffers": "4.6.1",
@@ -243,6 +293,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BouncyCastle.Cryptography/2.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7oWOcvnntmMKNzDLsdxAYqApt+AjpRpP2CShjMfIa3umZ42UQMvH0tl1qAliYPNYO6vTdcGMqnRrCPmsfzTI1w==",
+      "path": "bouncycastle.cryptography/2.6.2",
+      "hashPath": "bouncycastle.cryptography.2.6.2.nupkg.sha512"
+    },
+    "MailKit/4.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1nUAVLxM9fhT/78we6/AGsCesnpn5dRNLLeRqOfr52Wnk87pzVwo5YMTMyqnmoXrYc7piGhmayiMA/OgDluIjg==",
+      "path": "mailkit/4.17.0",
+      "hashPath": "mailkit.4.17.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/11.0.0-preview.5.26302.115": {
       "type": "package",
@@ -314,6 +378,13 @@
       "path": "microsoft.extensions.primitives/11.0.0-preview.5.26302.115",
       "hashPath": "microsoft.extensions.primitives.11.0.0-preview.5.26302.115.nupkg.sha512"
     },
+    "MimeKit/4.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h/KXsCreJf8RpR/PSAtlbvYtZFndp9N8Wn1Bs248AL7ITyhn+AiIY5bLTvt60tbN2mu6g8KadtBNWygTji2lqg==",
+      "path": "mimekit/4.17.0",
+      "hashPath": "mimekit.4.17.0.nupkg.sha512"
+    },
     "Polly/8.7.0": {
       "type": "package",
       "serviceable": true,
@@ -356,6 +427,13 @@
       "path": "system.diagnostics.diagnosticsource/11.0.0-preview.5.26302.115",
       "hashPath": "system.diagnostics.diagnosticsource.11.0.0-preview.5.26302.115.nupkg.sha512"
     },
+    "System.Formats.Asn1/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XqKba7Mm/koKSjKMfW82olQdmfbI5yqeoLV/tidRp7fbh5rmHAQ5raDI/7SU0swTzv+jgqtUGkzmFxuUg0it1A==",
+      "path": "system.formats.asn1/8.0.1",
+      "hashPath": "system.formats.asn1.8.0.1.nupkg.sha512"
+    },
     "System.IO.Pipelines/11.0.0-preview.5.26302.115": {
       "type": "package",
       "serviceable": true,
@@ -376,6 +454,13 @@
       "sha512": "sha512-2hBr6zdbIBTDE3EhK7NSVNdX58uTK6iHW/P/Axmm9sl1xoGSLqDvMtpecn226TNwHByFokYwJmt/aQQNlO5CRw==",
       "path": "system.runtime.compilerservices.unsafe/6.1.2",
       "hashPath": "system.runtime.compilerservices.unsafe.6.1.2.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CoCRHFym33aUSf/NtWSVSZa99dkd0Hm7OCZUxORBjRB16LNhIEOf8THPqzIYlvKM0nNDAPTRBa1FxEECrgaxxA==",
+      "path": "system.security.cryptography.pkcs/8.0.1",
+      "hashPath": "system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
     },
     "System.Text.Encodings.Web/11.0.0-preview.5.26302.115": {
       "type": "package",
