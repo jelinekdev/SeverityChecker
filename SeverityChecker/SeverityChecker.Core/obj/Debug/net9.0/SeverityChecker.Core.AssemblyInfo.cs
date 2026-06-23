@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeverityChecker.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+913fd34ae7e8ec3d956b8bb9afdbf21b65f80b87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ea1fa118032a6ea0f48aba5cf3e7bb5edd6b500")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeverityChecker.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeverityChecker.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
