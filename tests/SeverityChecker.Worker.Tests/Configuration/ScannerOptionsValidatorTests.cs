@@ -1,4 +1,4 @@
-﻿using FluentAssertions;
+﻿using Shouldly;
 using SeverityChecker.Worker.Configuration;
 using Xunit;
 
@@ -16,8 +16,10 @@ public class ScannerOptionsValidatorTests
             ScanIntervalMinutes = 30,
             ScanPaths = new[] { @"E:\dev\ProjectA" }
         };
+
         var result = _sut.Validate(name: null, options);
-        result.Succeeded.Should().BeTrue();
+
+        result.Succeeded.ShouldBeTrue();
     }
 
     [Theory]
@@ -30,9 +32,11 @@ public class ScannerOptionsValidatorTests
             ScanIntervalMinutes = interval,
             ScanPaths = new[] { @"E:\dev\ProjectA" }
         };
+
         var result = _sut.Validate(name: null, options);
-        result.Failed.Should().BeTrue();
-        result.Failures.Should().Contain(f => f.Contains(nameof(ScannerOptions.ScanIntervalMinutes)));
+
+        result.Failed.ShouldBeTrue();
+        result.Failures.ShouldContain(f => f.Contains(nameof(ScannerOptions.ScanIntervalMinutes)));
     }
 
     [Fact]
@@ -43,9 +47,11 @@ public class ScannerOptionsValidatorTests
             ScanIntervalMinutes = 60,
             ScanPaths = Array.Empty<string>()
         };
+
         var result = _sut.Validate(name: null, options);
-        result.Failed.Should().BeTrue();
-        result.Failures.Should().Contain(f => f.Contains(nameof(ScannerOptions.ScanPaths)));
+
+        result.Failed.ShouldBeTrue();
+        result.Failures.ShouldContain(f => f.Contains(nameof(ScannerOptions.ScanPaths)));
     }
 
     [Fact]
@@ -56,8 +62,10 @@ public class ScannerOptionsValidatorTests
             ScanIntervalMinutes = 60,
             ScanPaths = new[] { @"E:\dev\ProjectA", "   " }
         };
+
         var result = _sut.Validate(name: null, options);
-        result.Failed.Should().BeTrue();
-        result.Failures.Should().Contain(f => f.Contains(nameof(ScannerOptions.ScanPaths)));
+
+        result.Failed.ShouldBeTrue();
+        result.Failures.ShouldContain(f => f.Contains(nameof(ScannerOptions.ScanPaths)));
     }
 }
