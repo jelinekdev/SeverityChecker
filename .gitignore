@@ -1,0 +1,4 @@
+bin/
+obj/
+.vs/
+notified-findings.json
